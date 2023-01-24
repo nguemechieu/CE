@@ -249,7 +249,11 @@ class PolicySpecificReadOnlyAccessPolicyDocument(iam.IAMPolicyDocumentData):
 				"s3:DescribeJob",
 				"s3:Get*",
 				"s3:List*",
-				"trustedadvisor:Describe*"
+				"trustedadvisor:Describe*",
+				"route53domains:Get*",
+				"route53domains:List*",
+				"route53:Get*",
+				"route53:List*"
 			
 			],
             "resources": ["*"]
